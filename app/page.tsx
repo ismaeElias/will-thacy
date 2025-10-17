@@ -10,10 +10,14 @@ export default function HomePage() {
       <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-secondary/30 to-background px-4 sm:px-6">
         <div className="max-w-4xl mx-auto text-center space-y-6 sm:space-y-8">
           <div className="space-y-3 sm:space-y-4">
+           
             <Heart className="w-12 h-12 sm:w-16 sm:h-16 mx-auto text-primary animate-pulse" />
             <h1 className="font-serif text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-balance text-foreground px-4">
               Our History
             </h1>
+             <h3 className="font-serif text-3xl text-balance text-foreground px-4">
+              Will & Thacy
+            </h3>
             <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground text-balance px-4">
               "E isto é pelo que o Senhor nos fez."
             </p>
