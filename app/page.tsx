@@ -12,7 +12,7 @@ export default function HomePage() {
           <div className="space-y-3 sm:space-y-4">
           
             <Heart className="w-12 h-12 sm:w-16 sm:h-16 mx-auto text-primary animate-pulse" />
-            <h1 className="font-serif text-6xl  md:text-6xl lg:text-7xl text-balance text-foreground px-4">
+            <h1 className="font-serif text-5xl  md:text-7xl lg:text-8xl text-balance text-foreground px-4">
               Our History
             </h1>
              <h3 className="font-serif sm:text-4xl text-3xl text-balance text-foreground px-4">
