@@ -48,7 +48,7 @@ export function TimelineSection({ year, title, description, imageQuery, alignmen
           </div>
           <div className={`space-y-4 sm:space-y-6 ${alignment === "right" ? "md:order-1" : "md:order-2"}`}>
             <div className={`inline-block ${alignment === "right" ? "md:float-right" : ""}`}>
-              <span className="inline-flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-primary text-primary-foreground font-serif text-lg sm:text-xl font-bold">
+              <span className="inline-flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 rounded-full text-primary font-serif text-lg sm:text-xl font-bold">
                 {year}
               </span>
             </div>
