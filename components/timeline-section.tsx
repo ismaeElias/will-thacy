@@ -1,7 +1,6 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
-import { Card } from "@/components/ui/card"
 import imagem from "../public/foto.jpg"
 import Image from "next/image"
 

@@ -4,7 +4,7 @@ import { useState } from "react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { ContributionModal } from "@/components/contribution-modal"
-import { Gift, Home, Plane, Heart } from "lucide-react"
+import { Gift, Home, Plane, Heart, Shirt, Camera } from "lucide-react"
 import Image from "next/image"
 
 const helpOptions = [
@@ -48,7 +48,7 @@ const helpOptions = [
     id: "fotografia",
     title: "Fotografia",
     description: "Ajude-nos a capturar momentos preciosos",
-    icon: Home,
+    icon: Camera,
     color: "text-accent",
     totalValue: 4800,
     image: "https://www.enoivado.com.br/wp-content/uploads/2013/12/21.jpg",
@@ -57,7 +57,7 @@ const helpOptions = [
     id: "filmagem",
     title: "Filmagem",
     description: "Ajude-nos a filmar momentos únicos",
-    icon: Home,
+    icon: Camera,
     color: "text-accent",
     totalValue: 2800,
     image: "https://casamentoemharmonia.com.br/wp-content/uploads/2024/08/filmagem-casamento.jpg",
@@ -66,7 +66,7 @@ const helpOptions = [
     id: "traje",
     title: "Vestimenta Noivos",
     description: "Ajude-nos a alugar vestimenta dos noivos",
-    icon: Home,
+    icon: Shirt,
     color: "text-accent",
     totalValue: 1200,
     image: "https://s3-us-west-2.amazonaws.com/blog-organize/wp-content/uploads/2019/04/11124231/terno-1080x594.jpg",
