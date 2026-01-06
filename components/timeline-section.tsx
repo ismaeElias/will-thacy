@@ -1,8 +1,13 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
-import imagem from "../public/foto.jpg"
 import Image from "next/image"
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  type CarouselApi,
+} from "./ui/carousel"
 
 interface TimelineSectionProps {
   year: string
@@ -12,10 +17,24 @@ interface TimelineSectionProps {
   alignment: "left" | "right"
 }
 
+const imagesByYear: Record<string, string[]> = {
+  "2022": ["/images/2022/1.webp", "/images/2022/2.webp", "/images/2022/3.webp"],
+  "2023": ["/images/2023/1.webp", "/images/2023/2.webp", "/images/2023/3.webp"],
+  "2024": ["/images/2024/1.webp", "/images/2024/2.webp", "/images/2024/3.webp"],
+  "2025": ["/images/2025/1.webp", "/images/2025/2.webp", "/images/2025/3.webp"],
+  "2026": ["/images/2026/1.webp", "/images/2026/2.webp", "/images/2026/3.webp"],
+}
 
-export function TimelineSection({ year, title, description, imageQuery, alignment }: TimelineSectionProps) {
+export function TimelineSection({
+  year,
+  title,
+  description,
+  imageQuery,
+  alignment,
+}: TimelineSectionProps) {
   const [isVisible, setIsVisible] = useState(false)
   const sectionRef = useRef<HTMLElement>(null)
+  const [carouselApi, setCarouselApi] = useState<CarouselApi | null>(null)
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -34,6 +53,22 @@ export function TimelineSection({ year, title, description, imageQuery, alignmen
     return () => observer.disconnect()
   }, [])
 
+  // Autoplay: avança a cada 4s enquanto a seção está visível
+  useEffect(() => {
+    if (!carouselApi || !isVisible) return
+    const id = setInterval(() => {
+      carouselApi.scrollNext()
+    }, 4000)
+
+    return () => clearInterval(id)
+  }, [carouselApi, isVisible])
+
+  const images = imagesByYear[year] ?? [
+    "/images/2022/1.JPEG",
+    "/images/2022/2.JPEG",
+    "/images/2022/3.JPEG",
+  ]
+
   return (
     <section
       ref={sectionRef}
@@ -44,10 +79,21 @@ export function TimelineSection({ year, title, description, imageQuery, alignmen
       <div className="max-w-6xl mx-auto">
         <div className={`grid md:grid-cols-2 gap-8 sm:gap-12 items-center`}>
           <div className={`${alignment === "right" ? "md:order-2" : "md:order-1"}`}>
-            <Image src={imagem} alt={title}  className="w-full h-[300px] sm:h-[350px] md:h-[400px] object-cover rounded-lg"/>
+            <Carousel opts={{ loop: true }} setApi={setCarouselApi}>
+              <CarouselContent>
+                {images.map((src, idx) => (
+                  <CarouselItem key={idx}>
+                    <div className="w-full h-[300px] sm:h-[350px] md:h-[400px] relative rounded-lg overflow-hidden">
+                      <Image src={src} alt={`${title} ${idx + 1}`} fill className="object-cover" />
+                    </div>
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+            </Carousel>
           </div>
+
           <div className={`space-y-4 sm:space-y-6 ${alignment === "right" ? "md:order-1" : "md:order-2"}`}>
-            <div className={`inline-block ${alignment === "right" ? "md:float-right" : ""}`}>
+            <div className={`inline-block `}>
               <span className="inline-flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 rounded-full text-primary font-serif text-lg sm:text-xl font-bold">
                 {year}
               </span>

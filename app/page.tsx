@@ -35,41 +35,41 @@ export default function HomePage() {
 
       {/* Timeline Sections */}
       <TimelineSection
-        year="2018"
+        year="2022"
         title="O Primeiro Encontro"
-        description="Foi em uma tarde ensolarada de primavera que nossos olhares se cruzaram pela primeira vez. Naquele momento, algo mágico aconteceu - uma conexão instantânea que mudaria nossas vidas para sempre."
+        description="Aconteceu durante uma ação social em uma igrejinha na Eça de Queiroz. Amigos em comum acabaram criando novas oportunidades de encontro, até que ele tomou coragem e a convidou para ir ao cinema. O primeiro beijo aconteceu na noite do aniversário dela e em 08/06/2022, veio o pedido de namoro."
         imageQuery="romantic couple first meeting in spring"
         alignment="left"
       />
 
       <TimelineSection
-        year="2019"
-        title="O Primeiro Beijo"
-        description="Sob um céu estrelado, em uma noite que parecia feita especialmente para nós, aconteceu nosso primeiro beijo. Foi nesse momento que soubemos que estávamos destinados a estar juntos."
+        year="2023"
+        title="Superando Desafios"
+        description="A caminhada não foi simples. O intercambio para os Estados Unidos os separou por 2 anos inteiros. Em suas mentes, parecia simples manter um namoro a distância, até que se depararam com a falta de comunicação, desafios de fuso horário e tudo isso os afetou mais do que imaginavam. Após alguns meses de distância, chegaram ao fim."
         imageQuery="romantic couple under stars at night"
         alignment="right"
       />
 
       <TimelineSection
-        year="2020"
-        title="Superando Desafios"
-        description="Mesmo com todos os desafios que o mundo enfrentou, nosso amor só cresceu. Aprendemos que juntos podemos superar qualquer obstáculo e que nossa união é mais forte do que qualquer adversidade."
+        year="2024"
+        title=" O Reencontro"
+        description="Era julho. Ela já de volta ao Brasil. Foi quando seus olhares se cruzaram novamente naquela mesma igrejinha na Eça de Queiroz. O coração acelerado e os olhares se procurando no local, foi o que revelou que o amor ainda estava ali, esperando o recomeço, desta vez, com mais maturidade em Cristo."
         imageQuery="couple holding hands together support"
         alignment="left"
       />
 
       <TimelineSection
-        year="2022"
+        year="2025"
         title="O Pedido"
-        description="Em um momento inesquecível, cercado de amor e emoção, fizemos a pergunta mais importante de nossas vidas. E a resposta foi um 'sim' que ecoará para sempre em nossos corações."
+        description="Eles novamente se encontravam em rodas de amigos em comum (coincidência nê?), e o segundo “sim” veio em 31/12/2024. Sete meses se passaram e veio o sonhado e desejado pedido de casamento. Ele tinha apenas uma missão: surpreendê-la. E conseguiu. Em um jantar à luz de velas e uma pequena cerimônia, foi celebrado esse momento ao lado das pessoas que mais amam."
         imageQuery="romantic marriage proposal moment"
         alignment="right"
       />
 
       <TimelineSection
-        year="2025"
+        year="2026"
         title="O Grande Dia"
-        description="E agora, chegou o momento de celebrar nosso amor com as pessoas que mais amamos. Estamos ansiosos para compartilhar este dia especial com vocês e começar nossa nova jornada como marido e mulher."
+        description="Este é o ano em que irão selar sua decisão diante dos homens e de Deus. Seus corações estão ansiosos e, por vezes, apreensivos, mas não temem, pois confiam na forte mão do Deus a quem servem. Será um dia em que guardaram consigo eternamente e lembraram aos seus filhos dizendo: “E isto é pelo o que eles nos fez!”"
         imageQuery="elegant wedding celebration"
         alignment="left"
       />
