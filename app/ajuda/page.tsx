@@ -41,11 +41,8 @@ export default function AjudaPage() {
 
         <div className="mt-16  space-y-4 text-center">
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-balance text-foreground px-4">
-            Realize sua doação
+            Nos Abençoe por Pix
           </h2>
-          <p className="text-base sm:text-lg text-muted-foreground text-balance max-w-2xl mx-auto leading-relaxed px-4">
-            Realize sua doação com o PIX abaixo.
-          </p>
         </div>
 
         {/* Instruções PIX e QR Code lado a lado */}
@@ -103,7 +100,7 @@ export default function AjudaPage() {
             {/* QR Code */}
             <div className="flex justify-center">
               <div className="w-full max-w-96 aspect-square rounded-xl border-2">
-                <Image src={pix} alt="QR Code" width={384} height={384} className="w-full h-full object-contain p-1" />
+                <Image src={pix} alt="QR Code" width={404} height={404} className="w-full h-full object-contain p-1" />
               </div>
             </div>
           </div>

@@ -38,7 +38,7 @@ export default function HomePage() {
         year="2022"
         title="O Primeiro Encontro"
         description="Aconteceu durante uma ação social em uma igrejinha na Eça de Queiroz. Amigos em comum acabaram criando novas oportunidades de encontro, até que ele tomou coragem e a convidou para ir ao cinema. O primeiro beijo aconteceu na noite do aniversário dela e em 08/06/2022, veio o pedido de namoro."
-        imageQuery="romantic couple first meeting in spring"
+        imageQuery="/images/2022/2.webp"
         alignment="left"
       />
 
@@ -46,7 +46,7 @@ export default function HomePage() {
         year="2023"
         title="Superando Desafios"
         description="A caminhada não foi simples. O intercambio para os Estados Unidos os separou por 2 anos inteiros. Em suas mentes, parecia simples manter um namoro a distância, até que se depararam com a falta de comunicação, desafios de fuso horário e tudo isso os afetou mais do que imaginavam. Após alguns meses de distância, chegaram ao fim."
-        imageQuery="romantic couple under stars at night"
+        imageQuery="/images/2023/4.webp"
         alignment="right"
       />
 
@@ -54,7 +54,7 @@ export default function HomePage() {
         year="2024"
         title=" O Reencontro"
         description="Era julho. Ela já de volta ao Brasil. Foi quando seus olhares se cruzaram novamente naquela mesma igrejinha na Eça de Queiroz. O coração acelerado e os olhares se procurando no local, foi o que revelou que o amor ainda estava ali, esperando o recomeço, desta vez, com mais maturidade em Cristo."
-        imageQuery="couple holding hands together support"
+        imageQuery="/images/2024/3.webp"
         alignment="left"
       />
 
@@ -62,7 +62,7 @@ export default function HomePage() {
         year="2025"
         title="O Pedido"
         description="Eles novamente se encontravam em rodas de amigos em comum (coincidência nê?), e o segundo “sim” veio em 31/12/2024. Sete meses se passaram e veio o sonhado e desejado pedido de casamento. Ele tinha apenas uma missão: surpreendê-la. E conseguiu. Em um jantar à luz de velas e uma pequena cerimônia, foi celebrado esse momento ao lado das pessoas que mais amam."
-        imageQuery="romantic marriage proposal moment"
+        imageQuery="/images/2025/1.webp"
         alignment="right"
       />
 
@@ -70,7 +70,7 @@ export default function HomePage() {
         year="2026"
         title="O Grande Dia"
         description="Este é o ano em que irão selar sua decisão diante dos homens e de Deus. Seus corações estão ansiosos e, por vezes, apreensivos, mas não temem, pois confiam na forte mão do Deus a quem servem. Será um dia em que guardaram consigo eternamente e lembraram aos seus filhos dizendo: “E isto é pelo o que eles nos fez!”"
-        imageQuery="elegant wedding celebration"
+        imageQuery="/images/2026/3.webp"
         alignment="left"
       />
 
