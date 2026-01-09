@@ -51,7 +51,7 @@ export default function AjudaPage() {
             {/* Instruções */}
             <div className="bg-secondary/30 rounded-lg p-6 sm:p-8 border-2 border-primary/20">
               <h3 className="font-serif text-xl sm:text-2xl text-center mb-6 text-foreground">
-                Como fazer sua doação via PIX
+                Como enviar o PIX
               </h3>
               <ol className="space-y-4 text-left">
                 <li className="flex gap-3">
@@ -91,7 +91,7 @@ export default function AjudaPage() {
                     5
                   </span>
                   <p className="text-base sm:text-lg text-muted-foreground pt-1">
-                    Confirme o valor e finalize a doação
+                    Confirme o valor e finalize
                   </p>
                 </li>
               </ol>
