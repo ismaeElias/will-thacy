@@ -15,7 +15,7 @@ const helpOptions = [
     icon: Plane,
     color: "text-primary",
     totalValue: 5000,
-    image: "https://s3-us-west-2.amazonaws.com/blog-organize/wp-content/uploads/2019/08/06113658/honeymoon-8-1080x675.jpg",
+    image: "help/lua.jpg",
   },
   {
     id: "festa",
@@ -24,7 +24,7 @@ const helpOptions = [
     icon: Heart,
     color: "text-primary",
     totalValue: 18000,
-    image: "https://cdn0.casamentos.com.br/vendor/6225/3_2/960/jpeg/whatsapp-image-2023-06-26-at-18-19-13_13_386225-168781453231434.jpeg",
+    image: "help/casamento.jpeg",
   },
   {
     id: "decoracao",
@@ -33,7 +33,7 @@ const helpOptions = [
     icon: Heart,
     color: "text-primary",
     totalValue: 2200,
-    image: "https://static.wixstatic.com/media/9551d2_eeef29baf8bc4eaf8eefb370d755e9cd~mv2.jpg/v1/fill/w_528,h_792,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/9551d2_eeef29baf8bc4eaf8eefb370d755e9cd~mv2.jpg",
+    image: "help/decoracao.avif",
   },
   {
     id: "casa-nova",
@@ -42,7 +42,7 @@ const helpOptions = [
     icon: Home,
     color: "text-accent",
     totalValue: 20000,
-    image: "https://consorcioeldorado.com.br/wp-content/uploads/2024/04/trocar-a-mobilia-da-casa.jpeg",
+    image: "help/casa.webp",
   },
   {
     id: "fotografia",
@@ -51,7 +51,7 @@ const helpOptions = [
     icon: Camera,
     color: "text-accent",
     totalValue: 4800,
-    image: "https://www.enoivado.com.br/wp-content/uploads/2013/12/21.jpg",
+    image: "help/fotografia.jpg",
   },
   {
     id: "filmagem",
@@ -60,7 +60,7 @@ const helpOptions = [
     icon: Camera,
     color: "text-accent",
     totalValue: 2800,
-    image: "https://casamentoemharmonia.com.br/wp-content/uploads/2024/08/filmagem-casamento.jpg",
+    image: "help/filmagem.webp",
   },
   {
     id: "traje",
@@ -69,7 +69,7 @@ const helpOptions = [
     icon: Shirt,
     color: "text-accent",
     totalValue: 1200,
-    image: "https://s3-us-west-2.amazonaws.com/blog-organize/wp-content/uploads/2019/04/11124231/terno-1080x594.jpg",
+    image: "help/traje.jpg",
   }
 
 ]
