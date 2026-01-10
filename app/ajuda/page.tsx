@@ -98,7 +98,8 @@ export default function AjudaPage() {
             </div>
 
             {/* QR Code */}
-            <div className="flex justify-center">
+            <div className="flex justify-center flex-col items-center">
+              <p>williamxaviersalvador@gmail.com</p>
               <div className="w-full max-w-96 aspect-square rounded-xl border-2">
                 <Image src={pix} alt="QR Code" width={404} height={404} className="w-full h-full object-contain p-1" />
               </div>

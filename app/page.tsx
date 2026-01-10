@@ -37,7 +37,7 @@ export default function HomePage() {
       <TimelineSection
         year="2022"
         title="O Primeiro Encontro"
-        description="Aconteceu durante uma ação social em uma igrejinha na Eça de Queiroz. Amigos em comum acabaram criando novas oportunidades de encontro, até que ele tomou coragem e a convidou para ir ao cinema. O primeiro beijo aconteceu na noite do aniversário dela e em 08/06/2022, veio o pedido de namoro."
+        description="Aconteceu durante uma ação social em uma igrejinha na Eça de Queiroz. Amigos em comum acabaram criando novas oportunidades para eles se verem novamente, até que ele tomou coragem e a convidou para ir ao cinema. Seus encontros foram marcados por longas horas de muitas conversas. Era curioso como, quando estavam juntos, eles sempre reclamavam como os ponteiros do relógio pareciam correr mais depressa. Até que, na noite do aniversário dela, foi onde se beijaram pela primeira vez. Em 08/06/2022 veio o pedido de namoro."
         imageQuery="/images/2022/2.webp"
         alignment="left"
       />
@@ -45,7 +45,7 @@ export default function HomePage() {
       <TimelineSection
         year="2023"
         title="Superando Desafios"
-        description="A caminhada não foi simples. O intercambio para os Estados Unidos os separou por 2 anos inteiros. Em suas mentes, parecia simples manter um namoro a distância, até que se depararam com a falta de comunicação, desafios de fuso horário e tudo isso os afetou mais do que imaginavam. Após alguns meses de distância, chegaram ao fim."
+        description="A caminhada não foi simples. O intercâmbio dela para os Estados Unidos os separou por dois anos inteiros. Em suas mentes, parecia simples manter um namoro à distância, até que se depararam com a falta de comunicação, os desafios do fuso horário, e tudo isso os afetou mais do que imaginavam. Após alguns meses de distância, chegaram ao fim."
         imageQuery="/images/2023/4.webp"
         alignment="right"
       />
@@ -53,7 +53,7 @@ export default function HomePage() {
       <TimelineSection
         year="2024"
         title=" O Reencontro"
-        description="Era julho. Ela já de volta ao Brasil. Foi quando seus olhares se cruzaram novamente naquela mesma igrejinha na Eça de Queiroz. O coração acelerado e os olhares se procurando no local, foi o que revelou que o amor ainda estava ali, esperando o recomeço, desta vez, com mais maturidade em Cristo."
+        description="Era julho. Ela já de volta ao Brasil. Foi quando seus olhares se cruzaram novamente naquela mesma igrejinha na Eça de Queiroz em um culto de quarta-feira, lá onde se virão pela primeira vez. O coração acelerado e os olhares que se procuravam, foi o que revelou que o amor ainda estava ali, esperando o recomeço, desta vez, com mais maturidade em Cristo. Sim, Deus é especialista em histórias de amor!"
         imageQuery="/images/2024/3.webp"
         alignment="left"
       />
@@ -61,7 +61,7 @@ export default function HomePage() {
       <TimelineSection
         year="2025"
         title="O Pedido"
-        description="Eles novamente se encontravam em rodas de amigos em comum (coincidência nê?), e o segundo “sim” veio em 31/12/2024. Sete meses se passaram e veio o sonhado e desejado pedido de casamento. Ele tinha apenas uma missão: surpreendê-la. E conseguiu. Em um jantar à luz de velas e uma pequena cerimônia, foi celebrado esse momento ao lado das pessoas que mais amam."
+        description="Novamente, eles passaram a se encontrar nas rodas de amigos em comum (coincidência né?). Ela fez o primeiro contato entregando a ele uma carta que havia escrito, com mais de dez páginas (frente e verso). Foram alguns encontros e muitas conversas até que, em 31/12/2024 aconteceu o segundo pedido de namoro. Após sete meses, veio o sonhado e desejado pedido de casamento. Ele a surpreendeu numa noite chuvosa de setembro. Um jantar à luz de velas e em uma pequena cerimônia, foi celebrado o noivado ao lado das pessoas que mais amam."
         imageQuery="/images/2025/1.webp"
         alignment="right"
       />
@@ -69,7 +69,7 @@ export default function HomePage() {
       <TimelineSection
         year="2026"
         title="O Grande Dia"
-        description="Este é o ano em que irão selar sua decisão diante dos homens e de Deus. Seus corações estão ansiosos e, por vezes, apreensivos, mas não temem, pois confiam na forte mão do Deus a quem servem. Será um dia em que guardaram consigo eternamente e lembraram aos seus filhos dizendo: “E isto é pelo o que eles nos fez!”"
+        description="14/03/2026. Esta é a data em que selarão o “Sim” diante dos homens e de Deus. Seus corações estão ansiosos e, por vezes, apreensivos, mas não temem, pois confiam na forte mão do Deus, a quem servem. Será um dia que guardarão para sempre em seus corações e que um dia contarão aos seus filhos, dizendo: “E isto é pelo que Ele nos fez.”"
         imageQuery="/images/2026/3.webp"
         alignment="left"
       />
